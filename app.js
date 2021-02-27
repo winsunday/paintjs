@@ -1,7 +1,7 @@
 const canvas = document.getElementById("jsCanvas");
 const ctx = canvas.getContext("2d");
 const colors = document.getElementsByClassName("controls__color jsColor");
-const range = document.getElementsById("jsRange")
+const range = document.getElementById("jsRange")
 
 canvas.width = 700;
 canvas.height = 600;
